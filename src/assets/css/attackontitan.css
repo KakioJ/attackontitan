@@ -1,0 +1,216 @@
+/* 主体内容 */
+.main-body {
+    position: relative;
+    left: 9%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 左边内容 */
+.left-content {
+    height: 100%;
+    width: 50%;
+}
+
+/* 介绍标题 */
+.title-menu {
+    position: absolute;
+    top: 60px;
+    left: 58px;
+}
+.title-Group1 {
+    position: absolute;
+    top: 55px;
+    left: 135px;
+}
+
+/* 介绍细节 */
+.detail-title {
+    position: absolute;
+    top: 310px;
+    left: 135px;
+}
+.detail-time {
+    position: absolute;
+    top: 580.5px;
+    left: 134.5px;
+}
+.detail-text {
+    position: absolute;
+    top: 665px;
+    left: 135px;
+}
+
+/* 介绍列表 */
+.nav-list {
+    position: absolute;
+    top: 880px;
+    left: 135px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+li > a:hover {
+    color: blue;
+}
+
+/* li > a:visited {
+    color: green;
+} */
+
+/* 右边内容 */
+.slide-container {
+    width: 895px;
+    height: 665px;
+    position: absolute;
+    top: 0;
+    left: 588px;
+    overflow: hidden;
+}
+
+.slide-toolbar {
+    position: absolute;
+    top: 681px;
+    left: 588px;
+}
+
+.slide-result {
+    position: absolute;
+    top: 696px;
+    left: 1355px;
+}
+
+.slide-result > span {
+    color: #fff;
+    margin: 10px;
+}
+
+.slide-result > img  {
+    position: relative;
+    bottom: 5px;
+}
+
+/* 下方内容 */
+.trailer-title > img {
+    position: absolute;
+    left: 545px;
+    top: 745px;
+}
+
+/* 第一张图 */
+.traile-content-div1 > img:nth-child(1) {
+    position: absolute;
+    left: 545px;
+    top: 771px;
+}
+
+.traile-content-div1 > img:nth-child(2) {
+    position: absolute;
+    left: 554px;
+    top: 780px;
+}
+
+.traile-content-div1 > img:nth-child(3) {
+    position: absolute;
+    left: 540.5px;
+    top: 855.29px;
+}
+
+.traile-content-div1 > img:nth-child(4) {
+    position: absolute;
+    left: 565px;
+    top: 860px;
+}
+
+/* 第二张图 */
+.traile-content-div2 > img:nth-child(1) {
+    position: absolute;
+    left: 795px;
+    top: 771px;
+}
+
+.traile-content-div2 > img:nth-child(2) {
+    position: absolute;
+    left: 804px;
+    top: 780px;
+}
+
+.traile-content-div2 > img:nth-child(3) {
+    position: absolute;
+    left: 795.5px;
+    top: 855.29px;
+}
+
+.traile-content-div2 > img:nth-child(4) {
+    position: absolute;
+    left: 815px;
+    top: 860px;
+}
+
+/* 第三张图 */
+.traile-content-div3 > img:nth-child(1) {
+    position: absolute;
+    left: 1045px;
+    top: 771px;
+}
+
+.traile-content-div3 > img:nth-child(2) {
+    position: absolute;
+    left: 1054px;
+    top: 780px;
+}
+
+.traile-content-div3 > img:nth-child(3) {
+    position: absolute;
+    left: 1045.5px;
+    top: 855.29px;
+}
+
+.traile-content-div3 > img:nth-child(4) {
+    position: absolute;
+    left: 1065px;
+    top: 860px;
+}
+
+/* 第四张图 */
+.traile-content-div4 > img:nth-child(1) {
+    position: absolute;
+    left: 1295px;
+    top: 771px;
+}
+
+.traile-content-div4 > img:nth-child(2) {
+    position: absolute;
+    left: 1304px;
+    top: 780px;
+}
+
+.traile-content-div4 > img:nth-child(3) {
+    position: absolute;
+    left: 1295.5px;
+    top: 855.29px;
+}
+
+.traile-content-div4 > img:nth-child(4) {
+    position: absolute;
+    left: 1315px;
+    top: 860px;
+}
+
